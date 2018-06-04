@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-06-03T22:46:45+08:00</updated><id>http://localhost:4000/</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2018/06/03/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-06-03T22:16:38+08:00</published><updated>2018-06-03T22:16:38+08:00</updated><id>http://localhost:4000/jekyll/update/2018/06/03/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2018/06/03/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.2">Jekyll</generator><link href="https://woodhorse007.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://woodhorse007.github.io//" rel="alternate" type="text/html" /><updated>2018-06-04T14:35:48+08:00</updated><id>https://woodhorse007.github.io//</id><title type="html">木工司马</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Git使用备忘</title><link href="https://woodhorse007.github.io//2018/06/04/git-commands.html" rel="alternate" type="text/html" title="Git使用备忘" /><published>2018-06-04T03:56:44+08:00</published><updated>2018-06-04T03:56:44+08:00</updated><id>https://woodhorse007.github.io//2018/06/04/git-commands</id><content type="html" xml:base="https://woodhorse007.github.io//2018/06/04/git-commands.html">&lt;p&gt;#概念&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;origin:是仓库的起点&lt;/li&gt;
+  &lt;li&gt;master:主干&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;#同步仓库&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;git pull –rebase origin master   %下载并合并&lt;/li&gt;
+  &lt;li&gt;git fetch origin master  %只下载，不合并&lt;/li&gt;
+  &lt;li&gt;git clone git@github.com:whatever/something.git  % clone,并建立本地仓库
+git pull = git fetch + git merge
+git pull –rebase = git fetch + git rebase
+#本地记录版本&lt;/li&gt;
+  &lt;li&gt;git add *  %增加文件&lt;/li&gt;
+  &lt;li&gt;git commit -m “log” %本地增加版本记录
+#上传仓库&lt;/li&gt;
+  &lt;li&gt;git push origin master
+#查看信息&lt;/li&gt;
+  &lt;li&gt;git branch -a %显示本地仓库的所有分支：本地的，远程的&lt;/li&gt;
+  &lt;li&gt;git remote -v %列出当前程序对应的所有远程版本仓库的信息，含仓库名和仓库地址（ v 是verbose 的缩写)&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">#概念 origin:是仓库的起点 master:主干</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="https://woodhorse007.github.io//jekyll/update/2018/06/03/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-06-03T22:16:38+08:00</published><updated>2018-06-03T22:16:38+08:00</updated><id>https://woodhorse007.github.io//jekyll/update/2018/06/03/welcome-to-jekyll</id><content type="html" xml:base="https://woodhorse007.github.io//jekyll/update/2018/06/03/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
